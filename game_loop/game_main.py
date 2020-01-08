@@ -12,7 +12,7 @@ class GameMain:
         self.number_or_ranges = number_or_ranges
         self.numbers_generator = NumbersGenerator()
         self.patch_number = 1
-        self.accumulated_ranges = [0] * (MAX_RANDOM_NUMBER_VALUE + 1)  # The accumulation of the ranges values
+        self.accumulated_ranges = [0] * (MAX_RANDOM_NUMBER_VALUE + 2)  # The accumulation of the ranges values
 
         print_generate_random_ranges(number_or_ranges)
         for range_index in range(number_or_ranges):
