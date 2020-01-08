@@ -15,7 +15,7 @@ def print_start_a_new_patch():
 
 
 def print_generate_random_ranges(number_of_ranges: int):
-    print("Generating {} random ranges is being done now ...\n ranges are:".format(number_of_ranges))
+    print("Generating {} random ranges is being done now ...\nRanges are:".format(number_of_ranges))
 
 
 def print_new_random_generated_range(range_start: int, range_end: int):
@@ -23,7 +23,7 @@ def print_new_random_generated_range(range_start: int, range_end: int):
 
 
 def print_random_generated_ranges(number_of_ranges: int):
-    print("{} random ranges were generated ...")
+    print("{} random ranges were generated ...".format(number_of_ranges))
 
 
 def print_play_a_game_got_result(random_number: int, result: int):
